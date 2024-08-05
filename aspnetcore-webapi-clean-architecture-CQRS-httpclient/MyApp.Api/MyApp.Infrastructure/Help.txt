@@ -1,0 +1,13 @@
+﻿
+*************** Reference WebGentle - (You tube channel)*************************
+
+// Open Package Manager Console
+
+1. View > Other Windows > Package Manager Console
+2. Select Default Project as MyApp.Infrastructure
+
+// Add Migration
+3. PM > Add-Migration <Migration-Name> eg. Add-Migraion InitialCreate
+
+// Apply migratioin changes to Database
+4. PM > Update-Database
